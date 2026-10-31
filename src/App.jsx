@@ -25,7 +25,9 @@ function App() {
   return (
     <main className="container">
       <nav className="navbar">
-        <h2>HENRY<span>.</span></h2>
+        <h2>
+          HENRY<span>.</span>
+        </h2>
         <div>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
@@ -123,25 +125,27 @@ function App() {
             </div>
           </div>
 
-          {/* HAIRBNB */}
+          {/* HAIRBNB - UPDATED */}
           <div className="project-card reveal">
-            <div className="project-number">02 / WEB APPLICATION</div>
+            <div className="project-number">02 / MARKETPLACE WEB APP</div>
             <h3>Hairbnb</h3>
             <p>
-              A marketplace connecting customers across Europe
-              with professional Afro hairstylists. Explore stylists,
-              discover hairstyles and find convenient booking options.
+              An Afro-hair marketplace connecting customers across
+              Europe with professional hairstylists and quality hair
+              products. Discover stylists, explore services and browse
+              products through one platform.
             </p>
 
             <div className="project-tags">
               <span>React</span>
+              <span>JavaScript</span>
               <span>Marketplace</span>
-              <span>Frontend</span>
+              <span>E-commerce</span>
             </div>
 
             <div className="project-links">
               <a
-                href="https://hairbnb-psi.vercel.app"
+                href="https://hairbnb-two.vercel.app"
                 target="_blank"
                 rel="noreferrer"
               >
