@@ -83,6 +83,8 @@ function App() {
         <h2>Things I've been building.</h2>
 
         <div className="projects-grid">
+
+          {/* GASBRIDGE */}
           <div className="project-card reveal">
             <img
               className="project-image"
@@ -104,17 +106,53 @@ function App() {
             </div>
 
             <div className="project-links">
-              <a href="https://lng-green.vercel.app" target="_blank" rel="noreferrer">
+              <a
+                href="https://lng-green.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Live Preview ↗
               </a>
-              <a href="https://github.com/henry8eze-cpu/gasbridge-frontend" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/henry8eze-cpu/gasbridge-frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub ↗
               </a>
             </div>
           </div>
 
+          {/* HAIRBNB */}
           <div className="project-card reveal">
-            <div className="project-number">02 / PERSONAL</div>
+            <div className="project-number">02 / WEB APPLICATION</div>
+            <h3>Hairbnb</h3>
+            <p>
+              A marketplace connecting customers across Europe
+              with professional Afro hairstylists. Explore stylists,
+              discover hairstyles and find convenient booking options.
+            </p>
+
+            <div className="project-tags">
+              <span>React</span>
+              <span>Marketplace</span>
+              <span>Frontend</span>
+            </div>
+
+            <div className="project-links">
+              <a
+                href="https://hairbnb-psi.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Preview ↗
+              </a>
+            </div>
+          </div>
+
+          {/* PORTFOLIO */}
+          <div className="project-card reveal">
+            <div className="project-number">03 / PERSONAL</div>
             <h3>My Portfolio</h3>
             <p>
               A personal space showcasing my skills, projects
@@ -127,6 +165,7 @@ function App() {
               <span>CSS</span>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -148,10 +187,18 @@ function App() {
       <footer>
         <p>© 2026 Henry Ezenduka. Built with React.</p>
         <div className="project-links">
-          <a href="https://github.com/henry8eze-cpu" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/henry8eze-cpu"
+            target="_blank"
+            rel="noreferrer"
+          >
             GitHub ↗
           </a>
-          <a href="https://www.linkedin.com/in/henry-ezenduka-4340733b7" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/henry-ezenduka-4340733b7"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn ↗
           </a>
           <a href="#top">Back to top ↑</a>
